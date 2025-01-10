@@ -139,6 +139,7 @@ nav {
     font-size: 40px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
+    color: #0E0E0E;
 }
 
 .vision-of-future-para {
@@ -146,6 +147,8 @@ nav {
     font-size: 16px;
     font-family: "Fira Sans", serif;
     font-weight: regular;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 
 .vision-of-future .cards {
@@ -179,6 +182,8 @@ nav {
     font-size: 20px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
 }
 
 .vision-of-future .cards .card .card-text {
@@ -186,6 +191,8 @@ nav {
     font-size: 16px;
     font-family: "Fira Sans", serif;
     font-weight: regular;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 
 .vision-of-future .cards .card button {
@@ -198,3 +205,49 @@ nav {
     outline: none;
     border-radius: 8px;
 }
+
+.vision-of-future .cards .card1 button {
+    background-color: #5490F5;
+}
+
+.vision-of-future .cards .card2 button {
+    background-color: #09A15C;
+}
+
+.vision-of-future .cards .card3 button {
+    background-color: #FFC239;
+}
+
+/* quote section starts here */
+.quote {
+    width: 1280px;
+    margin: auto;
+    margin-top: 32px;
+    padding: 48px 24px;
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+
+    .quote .quote-text {
+        font-size: 16px;
+        font-family: "Fira Sans", serif;
+        font-weight: regular;
+        color: #0E0E0E;
+        opacity: 80%;
+    }
+
+    .quote .quote-author {
+        margin-top: 12px;
+        font-size: 20px;
+        font-family: "Fira Sans", serif;
+        font-weight: 600;
+        color: #0E0E0E;
+    }
+
+    .quote .quote-author-title {
+        font-size: 16px;
+        font-family: "Fira Sans", serif;
+        font-weight: regular;
+        color: #0E0E0E;
+        opacity: 60%;
+    }
