@@ -6,17 +6,16 @@
 
 body {
     width: 1600px;
+    background-color: #F5F5F5;
 }
 
 /* header section starts here */
-
 nav {
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 160px;
-    ;
 }
 
 .logo {
@@ -36,7 +35,6 @@ nav {
     align-items: center;
     border-radius: 8px;
     font-size: 18px;
-    border-radius: 8px;
     border: 1px solid#006A50;
     font-family: "Fira Sans", serif;
     font-weight: 600;
@@ -89,4 +87,44 @@ nav {
     font-size: 18px;
     font-family: "Fira Sans", serif;
     font-weight: 600;
+}
+
+/* future-vision section starts here */
+.pillars-of-bd {
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.pillars-of-bd-header {
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.pillars-of-bd .cards {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillars-of-bd .cards .card {
+    width: 302px;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #FFFFFF;
+}
+
+.pillars-of-bd .cards .card .card-title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.pillars-of-bd .cards .card .card-text {
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
 }
