@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+}
+
+/* header section starts here */
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 160px;
+    ;
+}
+
+.logo {
+    width: 222px;
+    height: 38px;
+    font-size: 32px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-btn {
+    width: 116px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid#006A50;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* hero section starts here */
+.hero {
+    width: 1280px;
+    margin: auto;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding-right: 100px;
+    padding-left: 50px;
+    border-radius: 24px;
+}
+
+.hero-left {
+    width: 622px;
+}
+
+.hero-header {
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    font-family: "Fira Sans", serif;
+    font-weight: medium;
+    font-style: normal;
+}
+
+.hero-text {
+    font-size: 56px;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.hero-btn {
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+}
