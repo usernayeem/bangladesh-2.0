@@ -128,3 +128,73 @@ nav {
     font-family: "Fira Sans", serif;
     font-weight: regular;
 }
+
+.vision-of-future {
+    margin-top: 80px !important;
+    width: 1280px;
+    margin: auto;
+}
+
+.vision-of-future .vision-header {
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.vision-of-future-para {
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+}
+
+.vision-of-future .cards {
+    margin-top: 32px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-of-future .cards .card {
+    width: 410px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-of-future .cards .card1 {
+    background-color: #D5E1F5;
+}
+
+.vision-of-future .cards .card2 {
+    background-color: #C6E4D6;
+}
+
+.vision-of-future .cards .card3 {
+    background-color: #F7EBCF;
+}
+
+.vision-of-future .cards .card .card-title {
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.vision-of-future .cards .card .card-text {
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+}
+
+.vision-of-future .cards .card button {
+    margin-top: 24px;
+    width: 122px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
