@@ -41,6 +41,10 @@ nav {
     font-style: normal;
 }
 
+main{
+    padding-bottom: 80px;
+}
+
 /* hero section starts here */
 .hero {
     width: 1280px;
@@ -549,6 +553,7 @@ nav {
     color: #0E0E0E;
     opacity: 70%;
     margin: auto;
+    text-align: center;
 }
 
 .newsletter .input-field{
@@ -588,4 +593,17 @@ nav {
     font-weight: 600;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+/* footer section starts here */
+footer{
+    width: 1600px;
+    height: 106px;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
