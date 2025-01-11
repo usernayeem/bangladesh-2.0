@@ -227,27 +227,101 @@ nav {
     background-image: url(images/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 24px;
+    width: 1280px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
 
-    .quote .quote-text {
-        font-size: 16px;
-        font-family: "Fira Sans", serif;
-        font-weight: regular;
-        color: #0E0E0E;
-        opacity: 80%;
-    }
+.quote .quote-text {
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+    color: #0E0E0E;
+    opacity: 80%;
+}
 
-    .quote .quote-author {
-        margin-top: 12px;
-        font-size: 20px;
-        font-family: "Fira Sans", serif;
-        font-weight: 600;
-        color: #0E0E0E;
-    }
+.quote .quote-author {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    color: #0E0E0E;
+}
 
-    .quote .quote-author-title {
-        font-size: 16px;
-        font-family: "Fira Sans", serif;
-        font-weight: regular;
-        color: #0E0E0E;
-        opacity: 60%;
-    }
+.quote .quote-author-title {
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+    color: #0E0E0E;
+    opacity: 60%;
+}
+
+/* opinion section starts here */
+.opinion {
+    margin-top: 80px !important;
+    width: 1280px;
+    margin: auto;
+    color: #0E0E0E;
+    border-color: #0E0E0E;
+}
+
+.opinion h2 {
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+}
+
+.opinion .table-container {
+    margin-top: 24px;
+    width: 1280px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.opinion table {
+    width: 1216px;
+    border-collapse: collapse;
+}
+
+.opinion tr {
+    height: 72px;
+}
+
+.opinion th {
+    border: none;
+    background-color: #C6E4d6;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+}
+
+.opinion .first-th {
+    text-align: left;
+}
+
+.opinion th,
+.opinion td {
+    padding: 24px;
+}
+
+.opinion td {
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+}
+
+.opinion button {
+    width: 152px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0E0E0E;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: medium;
+    margin: auto;
+}
