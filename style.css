@@ -9,6 +9,11 @@ body {
     background-color: #F5F5F5;
 }
 
+button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
 /* header section starts here */
 nav {
     height: 100px;
@@ -25,6 +30,7 @@ nav {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
+    color: #0E0E0E;
 }
 
 .nav-btn {
@@ -39,9 +45,10 @@ nav {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: normal;
+    color: #006A50;
 }
 
-main{
+main {
     padding-bottom: 80px;
 }
 
@@ -59,11 +66,11 @@ main{
     border-radius: 24px;
 }
 
-.hero-left {
+.hero .hero-left {
     width: 622px;
 }
 
-.hero-header {
+.hero .hero-header {
     font-size: 24px;
     color: #0E0E0E;
     opacity: 50%;
@@ -72,14 +79,14 @@ main{
     font-style: normal;
 }
 
-.hero-text {
+.hero .hero-text {
     font-size: 56px;
     color: #0E0E0E;
     font-family: "Fira Sans", serif;
     font-weight: 700;
 }
 
-.hero-btn {
+.hero button {
     width: 270px;
     height: 56px;
     background-color: #006A50;
@@ -91,6 +98,9 @@ main{
     font-size: 18px;
     font-family: "Fira Sans", serif;
     font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 8px;
 }
 
 /* future-vision section starts here */
@@ -104,6 +114,7 @@ main{
     font-size: 40px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
+    color: #0E0E0E;
 }
 
 .pillars-of-bd .cards {
@@ -112,35 +123,45 @@ main{
     justify-content: space-between;
 }
 
-.pillars-of-bd .cards .card {
+.pillars-of-bd .card {
     width: 302px;
     border-radius: 16px;
     padding: 24px;
     background-color: #FFFFFF;
+    transition: 0.2s;
 }
 
-.pillars-of-bd .cards .card .card-title {
+.pillars-of-bd .card:hover {
+    transform: scale(1.02);
+}
+
+.pillars-of-bd .card-title {
     margin-top: 24px;
     margin-bottom: 12px;
     font-size: 20px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
 }
 
-.pillars-of-bd .cards .card .card-text {
+.pillars-of-bd .card-text {
     font-size: 16px;
     font-family: "Fira Sans", serif;
     font-weight: regular;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 
+/* vision of future starts here */
 .vision-of-future {
     margin-top: 80px !important;
     width: 1280px;
     margin: auto;
 }
 
-.vision-of-future .vision-header {
-    font-size: 40px;
+.vision-of-future h2 {
+    font-size: 40px !important;
     font-family: "Fira Sans", serif;
     font-weight: 700;
     color: #0E0E0E;
@@ -163,10 +184,15 @@ main{
     gap: 24px;
 }
 
-.vision-of-future .cards .card {
+.vision-of-future .card {
     width: 410px;
     border-radius: 16px;
     padding: 32px;
+    transition: 0.2s;
+}
+
+.vision-of-future .card:hover {
+    transform: scale(1.02);
 }
 
 .vision-of-future .cards .card1 {
@@ -537,7 +563,7 @@ main{
     flex-direction: column;
 }
 
-.newsletter h2{
+.newsletter h2 {
     font-size: 40px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -556,7 +582,7 @@ main{
     text-align: center;
 }
 
-.newsletter .input-field{
+.newsletter .input-field {
     margin-top: 24px !important;
     width: 750px;
     margin: auto;
@@ -572,7 +598,7 @@ main{
     border-radius: 8px;
 }
 
-.newsletter input{
+.newsletter input {
     font-size: 16px;
     font-family: "Fira Sans", serif;
     font-weight: regular;
@@ -596,14 +622,29 @@ main{
 }
 
 /* footer section starts here */
-footer{
+footer {
     width: 1600px;
-    height: 106px;
+    height: 226px;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
     font-size: 32px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
+}
+
+footer hr {
+    margin-top: 32px;
+    width: 1122px;
+}
+
+footer .social-icons {
+    margin-top: 32px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 23px;
 }
