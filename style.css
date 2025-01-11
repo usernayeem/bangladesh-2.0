@@ -327,20 +327,20 @@ nav {
 }
 
 /* recent news section starts here */
-.recent-news{
+.recent-news {
     margin-top: 80px !important;
     width: 1280px;
     margin: auto;
 }
 
-.recent-news h2{
+.recent-news h2 {
     font-size: 40px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
     color: #0E0E0E;
 }
 
-.recent-news>p{
+.recent-news>p {
     margin-top: 24px;
     font-size: 16px;
     font-family: "Fira Sans", serif;
@@ -350,13 +350,13 @@ nav {
     margin-bottom: 32px;
 }
 
-.recent-news .cards{
+.recent-news .cards {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.recent-news .card{
+.recent-news .card {
     display: flex;
     background-color: #FFFFFF;
     border-radius: 24px;
@@ -365,17 +365,17 @@ nav {
     align-items: center;
 }
 
-.recent-news .card2 .left{
+.recent-news .card2 .left {
     order: 1;
 }
 
-.recent-news .card-banner{
+.recent-news .card-banner {
     width: 408px;
-    height: 306px ;
+    height: 306px;
     border-radius: 24px;
 }
 
-.recent-news h3{
+.recent-news h3 {
     font-size: 32px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -383,12 +383,12 @@ nav {
     opacity: 80%;
 }
 
-.recent-news .right img{
+.recent-news .right img {
     margin-top: 12px;
     display: block;
 }
 
-.recent-news .date-time{
+.recent-news .date-time {
     margin-top: 12px;
     display: flex;
     gap: 12px;
@@ -399,7 +399,7 @@ nav {
     font-size: 16px;
 }
 
-.recent-news .right p{
+.recent-news .right p {
     margin-top: 12px;
     font-size: 16px;
     font-family: "Fira Sans", serif;
@@ -408,7 +408,7 @@ nav {
     opacity: 70%;
 }
 
-.recent-news button{
+.recent-news button {
     margin-top: 32px;
     width: 139px;
     height: 48px;
@@ -420,4 +420,102 @@ nav {
     font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+/* donate section starts here */
+.donate {
+    margin-top: 80px !important;
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate h2 {
+    width: 1240px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.donate p {
+    margin-top: 24px;
+    width: 1070px;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.donate .cards {
+    margin-top: 32px !important;
+    width: 1070px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate .card {
+    width: 240px;
+    height: 128px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.donate .card:hover {
+    background-color: #C6E4D6;
+}
+
+.donate input {
+    margin-top: 32px !important;
+    width: 1032px;
+    margin: auto;
+    height: 64px;
+    background-color: #FFFFFF;
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+    color: #0E0E0E;
+    text-align: center;
+}
+
+.donate input::placeholder {
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: regular;
+    color: #0E0E0E;
+    opacity: 30%;
+    text-align: center;
+}
+
+.donate button {
+    margin-top: 32px !important;
+    width: 151px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    margin: auto;
 }
